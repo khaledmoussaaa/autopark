@@ -224,7 +224,7 @@
                 <!-- about & social icons -->
                 <div class="col-md-4 widget-area">
                     <div class="widget clearfix">
-                        <div class="footer-logo"><img src="img/logo-light.png" alt=""></div>
+                        <div class="footer-logo"><img src="images/logo-light.png" alt=""></div>
                         <!-- <div class="footer-logo"><h2>CARE<span>X</span></h2></div> -->
                         <div class="widget-text">
                             <p>Rent a car imperdiet sapien porttito the bibenum ellentesue the commodo erat nesuen.</p>

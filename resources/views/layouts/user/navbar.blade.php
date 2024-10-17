@@ -39,19 +39,17 @@
                     </a>
                     <ul class="dropdown-menu">
                         <!-- Separate link to the services page -->
-                        <li><a href="" class="dropdown-item"><span>All Services</span></a></li>
+                        <li><a href="{{ route('services.index') }}" class="dropdown-item"><span>All Services</span></a></li>
 
                         <!-- Dropdown items -->
                         <li><a href="service-details.html" class="dropdown-item"><span>Service Details 01</span></a></li>
                         <li><a href="service-details.html" class="dropdown-item"><span>Service Details 02</span></a></li>
                         <li><a href="service-details.html" class="dropdown-item"><span>Service Details 03</span></a></li>
                         <li><a href="service-details.html" class="dropdown-item"><span>Service Details 04</span></a></li>
-
-
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="cars4.html">Buy Car</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Sell Car</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('sellcars.index') }}">Sell Car</a></li>
                 <ul class="dropdown-menu">
                     <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Car Grid <i class="ti-angle-right"></i></span></a>
                         <ul class="dropdown-menu">

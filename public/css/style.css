@@ -74,7 +74,7 @@ body {
     outline: none;
     list-style: none;
     word-wrap: break-word;
-    direction: rtl;
+    /* direction: rtl; */
 }
 
 body {
@@ -7599,7 +7599,7 @@ body.mfp-zoom-out-cur {
     padding: 0 20px 0 90px;
     border: 1px solid #f0c83c;
     border-radius: 30px;
-    direction: rtl;
+    /* direction: rtl; */
 }
 
 .widget-newsletter button {

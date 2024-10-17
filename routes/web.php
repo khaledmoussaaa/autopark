@@ -17,6 +17,9 @@ Route::view('/', 'pages.common.welcome');
 |--------------------------------------------------------------------------
 */
 
+// Dashboard
+Route::resource('/dashboard', 'Services\ServiceController');
+
 /*
 |--------------------------------------------------------------------------
 | User Routes
@@ -24,4 +27,16 @@ Route::view('/', 'pages.common.welcome');
 */
 
 // Services
-Route::view('/services', 'pages.user.welcome');
+Route::resource('/services', 'Services\ServiceController');
+
+// Sell Car
+Route::resource('/sellcars','SellCars\SellCarController');
+
+// Buy Car
+Route::resource('/services', 'Services\ServiceController');
+
+// Faqs
+Route::resource('/services', 'Services\ServiceController');
+
+// Contacts Car
+Route::resource('/services', 'Services\ServiceController');
